@@ -1,0 +1,172 @@
+
+/*header en todas mis html*/
+header h3{
+    color: white;
+    font: initial;
+    font-style: italic;
+    font-size: 16px;
+    background-color: black;
+    text-align: center;
+    word-spacing: normal;
+}
+
+i{
+    color: #6B1818;
+    font-size: 32px;
+}
+
+.redes-logo{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+/*lista nav en todos los html*/
+.lista{
+    list-style-type: none;
+    display: flex;
+    justify-content: space-around;
+    align-items: center; 
+}
+
+header nav ul li a {
+    color: darkred;
+    font: initial;
+    font-style: italic;
+    font-size: 25px;
+    text-decoration: none;
+    border: 1px solid lightgrey;
+    padding: 10px;
+    margin: 10px 20px 10px 20px;
+}
+
+ul li a{
+    color: white;
+    font: initial;
+    font-style: italic;
+    font-size: larger;
+    text-decoration: none;
+}
+
+/*index*/
+main section h1{ 
+    color: darkred;
+    font: initial;
+    font-size: 32px;
+    text-align: center;
+}
+
+/*index-vinos-promociones*/
+article{
+    padding: 20px;
+    border: 1px solid darkgrey;
+}
+
+/*promociones*/
+body section article{
+    display: inline;
+}
+body section article img{
+    margin: 25px 10px 25px 10px;
+    padding: 20px;
+}
+
+/*nosotros*/
+main h1 {
+    font: initial;
+    color: darkred;
+    font-size: 35px;
+    text-align: center;
+    text-decoration: underline;
+}
+main div {
+    color: darkred;
+    font-size: 14px;
+    font: initial;
+    text-align: center;
+}
+
+/*contacto*/
+form input{
+    color: #888888ec;
+    background-color: #d3d3d3;
+    font-size: 16px;
+    text-align: center;
+}
+form{
+    position: relative;
+    width: 50%;
+    top: 20%;
+    left: 25%;
+}
+/*contacto-informacion*/
+input::placeholder {
+    font-family: sans-serif;
+}
+textarea::placeholder {
+    font-family: sans-serif;
+}
+.contact-form {
+    display: flex;
+    flex-direction: column;
+    max-width: 600px;
+    margin: auto;
+    justify-content: center;
+    align-items: center;
+}
+.contact-form .inp {
+    width: 70%;
+    margin: 10px auto;
+    padding: 4px 13px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    height: 40px;
+}
+/*contacto-mensaje*/
+.text_area {
+    width: 70%;
+    margin: 10px auto;
+    padding: 13px 13px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+    resize: none;
+}
+/*contacto-enviar*/
+.submit_btn {
+    width: 70%;
+    margin: 10px auto;
+    padding: 13px 13px;
+    outline: none;
+    border-radius: 5px;
+    border: none;
+    background-color: black;
+    color: white;
+    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
+/*footer en todos mis html*/
+footer{
+    background-color: #AB9888; 
+}
+
+.footer-title{
+    text-align: left;
+    color: white;
+    font-size: 32px;
+}
+
+footer span{
+    color: darkred;
+    font-size: 18px;
+    text-align: left;
+}
+
+footer p{
+    font-size: 16px;
+    color: black;
+}
