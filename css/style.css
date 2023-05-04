@@ -22,33 +22,24 @@ i{
     align-items: center;
 }
 
-/*lista nav en todos los html*/
-.lista{
-    list-style-type: none;
-    display: flex;
-    justify-content: space-around;
-    align-items: center; 
+/*nav en todos los html*/
+.logo{
+    width: 25%;
+    margin: 5px;
 }
 
-header nav ul li a {
-    color: darkred;
+.nav-link{
+    color: #6B1818;
     font: initial;
     font-style: italic;
-    font-size: 25px;
-    text-decoration: none;
-    border: 1px solid lightgrey;
-    padding: 10px;
-    margin: 10px 20px 10px 20px;
-}
-
-ul li a{
-    color: white;
-    font: initial;
-    font-style: italic;
-    font-size: larger;
+    font-size: 20px;
     text-decoration: none;
 }
 
+.btn-cel{
+    color: #6B1818;
+
+}
 
 /*index*/
 main section h1{ 
@@ -91,10 +82,7 @@ div img {
 }
 
 /*index-vinos-promociones*/
-article{
-    padding: 20px;
-    border: 1px solid darkgrey;
-}
+
 
 /*promociones*/
 body section article{
@@ -114,6 +102,10 @@ main h1 {
     text-decoration: underline;
     margin: 40px;
 }
+.img-cel{
+    width: auto;
+    height: auto;
+}
 main div p {
     color: darkred;
     font-size: 14px;
@@ -121,23 +113,17 @@ main div p {
     text-align: justify
 }
 
+@media (max-width: 576px) and (orientation: portrait)
+
+
+
+
 /*contacto*/
-form input{
-    color: #888888ec;
-    background-color: #d3d3d3;
-    font-size: 16px;
-    text-align: center;
-}
-form{
-    position: relative;
-    width: 50%;
-    top: 20%;
-    left: 25%;
-}
+
+
+
 /*contacto-informacion*/
-input::placeholder {
-    font-family: sans-serif;
-}
+
 textarea::placeholder {
     font-family: sans-serif;
 }
