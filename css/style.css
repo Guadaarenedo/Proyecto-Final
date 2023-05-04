@@ -49,12 +49,45 @@ ul li a{
     text-decoration: none;
 }
 
+
 /*index*/
 main section h1{ 
     color: darkred;
     font: initial;
     font-size: 32px;
     text-align: center;
+    margin: 40px;
+}
+
+.titulo-tarjeta{
+    font-size: 20px;
+    color: #6B1818;
+}
+
+.tarjeta-vinos {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+.card{
+    margin: 10px 10px 10px 10px; 
+    align-items: center;
+}
+div img {
+    max-width: 40%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+    filter: invert(100%);
+  }
+
+.btn-agregar{
+    border: darkred;
+    border-radius: 10px;
+    background-color: #9c4b4b;
+}
+.btn-agregar:hover{
+    background-color: white;
+    color: #9c4b4b
 }
 
 /*index-vinos-promociones*/
@@ -79,12 +112,13 @@ main h1 {
     font-size: 35px;
     text-align: center;
     text-decoration: underline;
+    margin: 40px;
 }
-main div {
+main div p {
     color: darkred;
     font-size: 14px;
     font: initial;
-    text-align: center;
+    text-align: justify
 }
 
 /*contacto*/
