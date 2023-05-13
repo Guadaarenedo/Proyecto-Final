@@ -1,6 +1,6 @@
 
 /*header en todas mis html*/
-header h3{
+header p{
     color: white;
     font: initial;
     font-style: italic;
@@ -8,18 +8,7 @@ header h3{
     background-color: black;
     text-align: center;
     word-spacing: normal;
-}
 
-i{
-    color: #6B1818;
-    font-size: 32px;
-}
-
-.redes-logo{
-    list-style: none;
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
 }
 
 /*nav en todos los html*/
@@ -28,17 +17,25 @@ i{
     margin: 5px;
 }
 
-.nav-link{
+.my-navbar {
     color: #6B1818;
     font: initial;
     font-style: italic;
     font-size: 20px;
-    text-decoration: none;
+    font-weight: bold;
+    border-radius: 20%;
 }
-
+.my-navbar:hover {
+    color: white;
+    background-color: #6B1818;
+}
+.activo:active {
+    text-decoration: underline;
+    text-decoration-color: #6B1818;
+    background-color: white;
+}
 .btn-cel{
     color: #6B1818;
-
 }
 
 /*index*/
@@ -113,27 +110,47 @@ main div p {
     text-align: justify
 }
 
-@media (max-width: 576px) and (orientation: portrait)
-
-
-
-
-/*contacto*/
-
-
 
 /*contacto-informacion*/
-
-textarea::placeholder {
-    font-family: sans-serif;
+h1 {
+    color: darkred;
+    font-style: italic;
 }
+*{
+    margin: 0px;
+    padding: 0px;
+    box-sizing: border-box;
+}
+  body {
+    background-color: whitesmoke;
+    width: 100vw;
+    /* height: 150vh; */
+}
+
+/* form {
+    position: absolute;
+    width: 100%;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%); 
+} */
+
+input::placeholder {
+    font-family: sans-serif;
+  }
+  textarea::placeholder {
+    font-family: sans-serif;
+  }
 .contact-form {
+    padding: 25px;
+    width: 100%;
+    margin: 0 auto;
     display: flex;
     flex-direction: column;
     max-width: 600px;
-    margin: auto;
     justify-content: center;
     align-items: center;
+    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
 }
 .contact-form .inp {
     width: 70%;
@@ -164,7 +181,7 @@ textarea::placeholder {
     outline: none;
     border-radius: 5px;
     border: none;
-    background-color: black;
+    background-color: #6B1818;
     color: white;
     box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
