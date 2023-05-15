@@ -29,16 +29,18 @@ header p{
     color: white;
     background-color: #6B1818;
 }
-.activo:active {
+
+.my-navbar:active {
     text-decoration: underline;
     text-decoration-color: #6B1818;
     background-color: white;
 }
+
 .btn-cel{
     color: #6B1818;
 }
 
-/*index*/
+/*index - vinos - promociones*/
 main section h1{ 
     color: darkred;
     font: initial;
@@ -50,8 +52,14 @@ main section h1{
 .titulo-tarjeta{
     font-size: 20px;
     color: #6B1818;
+    font-family: Georgia;
 }
 
+.texto-tarjeta{
+    color: #6B1818;
+    font-family: arial;
+    font-weight: bold;
+}
 .tarjeta-vinos {
     display: flex;
     align-items: center;
@@ -59,7 +67,9 @@ main section h1{
 }
 .card{
     margin: 10px 10px 10px 10px; 
+    display: flex;
     align-items: center;
+    justify-content: center;
 }
 div img {
     max-width: 40%;
@@ -78,17 +88,7 @@ div img {
     color: #9c4b4b
 }
 
-/*index-vinos-promociones*/
 
-
-/*promociones*/
-body section article{
-    display: inline;
-}
-body section article img{
-    margin: 25px 10px 25px 10px;
-    padding: 20px;
-}
 
 /*nosotros*/
 main h1 {
@@ -109,7 +109,9 @@ main div p {
     font: initial;
     text-align: justify
 }
-
+.imagen{
+    margin-bottom: 10%;
+}
 
 /*contacto-informacion*/
 h1 {
