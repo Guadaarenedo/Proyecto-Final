@@ -1,211 +1,166 @@
-
-/*header en todas mis html*/
-header p{
-    color: white;
-    font: initial;
-    font-style: italic;
-    font-size: 16px;
-    background-color: black;
-    text-align: center;
-    word-spacing: normal;
-
+body main .contact-form, body main .card, body main .tarjeta-vinos {
+  display: flex;
+  justify-content: center;
+  align-items: center;
 }
 
-/*nav en todos los html*/
-.logo{
-    width: 25%;
-    margin: 5px;
+body main .submit_btn, body main .text_area, body main .inp, body main .contact-form {
+  width: 70%;
+  margin: 10px auto;
 }
 
-.my-navbar {
-    color: #6B1818;
-    font: initial;
-    font-style: italic;
-    font-size: 20px;
-    font-weight: bold;
-    border-radius: 20%;
+body header p {
+  color: white;
+  font: initial;
+  font-style: italic;
+  font-size: 16px;
+  background-color: black;
+  text-align: center;
+  word-spacing: normal;
 }
-.my-navbar:hover {
-    color: white;
-    background-color: #6B1818;
+body header .logo {
+  width: 25%;
+  margin: 5px;
 }
-
-.my-navbar:active {
-    text-decoration: underline;
-    text-decoration-color: #6B1818;
-    background-color: white;
+body header .my-navbar {
+  color: #6B1818;
+  font: initial;
+  font-style: italic;
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 20%;
 }
-
-.btn-cel{
-    color: #6B1818;
+body header .my-navbar:hover {
+  color: white;
+  background-color: #6B1818;
 }
-
-/*index - vinos - promociones*/
-main section h1{ 
-    color: darkred;
-    font: initial;
-    font-size: 32px;
-    text-align: center;
-    margin: 40px;
+body header .my-navbar:active {
+  text-decoration: underline;
+  text-decoration-color: #6B1818;
+  background-color: white;
 }
-
-.titulo-tarjeta{
-    font-size: 20px;
-    color: #6B1818;
-    font-family: Georgia;
+body header .btn-cel {
+  color: #6B1818;
 }
-
-.texto-tarjeta{
-    color: #6B1818;
-    font-family: arial;
-    font-weight: bold;
+body main section h1 {
+  color: darkred;
+  font: initial;
+  font-size: 32px;
+  text-align: center;
+  margin: 40px;
 }
-.tarjeta-vinos {
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body main .titulo-tarjeta {
+  font-size: 20px;
+  color: #6B1818;
+  font-family: Georgia;
 }
-.card{
-    margin: 10px 10px 10px 10px; 
-    display: flex;
-    align-items: center;
-    justify-content: center;
+body main .texto-tarjeta {
+  color: #6B1818;
+  font-family: arial;
+  font-weight: bold;
 }
-div img {
-    max-width: 40%;
+body main .card {
+  margin: 10px 10px 10px 10px;
 }
-.carousel-control-prev-icon, .carousel-control-next-icon {
-    filter: invert(100%);
-  }
-
-.btn-agregar{
-    border: darkred;
-    border-radius: 10px;
-    background-color: #9c4b4b;
+body main div img {
+  max-width: 40%;
 }
-.btn-agregar:hover{
-    background-color: white;
-    color: #9c4b4b
+body main .carousel-control-prev-icon, body main .carousel-control-next-icon {
+  filter: invert(100%);
 }
-
-
-
-/*nosotros*/
-main h1 {
-    font: initial;
-    color: darkred;
-    font-size: 35px;
-    text-align: center;
-    text-decoration: underline;
-    margin: 40px;
+body main .btn-agregar {
+  border: darkred;
+  border-radius: 10px;
+  background-color: #9c4b4b;
 }
-.img-cel{
-    width: auto;
-    height: auto;
+body main .btn-agregar:hover {
+  background-color: white;
+  color: #9c4b4b;
 }
-main div p {
-    color: darkred;
-    font-size: 14px;
-    font: initial;
-    text-align: justify
+body main h1 {
+  font: initial;
+  color: darkred;
+  font-size: 35px;
+  text-align: center;
+  text-decoration: underline;
+  margin: 40px;
 }
-.imagen{
-    margin-bottom: 10%;
+body main .img-cel {
+  width: auto;
+  height: auto;
 }
-
-/*contacto-informacion*/
-h1 {
-    color: darkred;
-    font-style: italic;
+body main div p {
+  color: darkred;
+  font-size: 14px;
+  font: initial;
+  text-align: justify;
 }
-*{
-    margin: 0px;
-    padding: 0px;
-    box-sizing: border-box;
+body main .imagen {
+  margin-bottom: 10%;
 }
-  body {
-    background-color: whitesmoke;
-    width: 100vw;
-    /* height: 150vh; */
+body main h1 {
+  color: darkred;
+  font-style: italic;
 }
-
-/* form {
-    position: absolute;
-    width: 100%;
-    top: 50%;
-    left: 50%;
-    transform: translate(-50%, -50%); 
-} */
-
-input::placeholder {
-    font-family: sans-serif;
-  }
-  textarea::placeholder {
-    font-family: sans-serif;
-  }
-.contact-form {
-    padding: 25px;
-    width: 100%;
-    margin: 0 auto;
-    display: flex;
-    flex-direction: column;
-    max-width: 600px;
-    justify-content: center;
-    align-items: center;
-    box-shadow: rgba(0, 0, 0, 0.35) 0px 5px 15px;
+body main * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
 }
-.contact-form .inp {
-    width: 70%;
-    margin: 10px auto;
-    padding: 4px 13px;
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    height: 40px;
+body main main form {
+  background-color: whitesmoke;
+  width: 100vw;
 }
-/*contacto-mensaje*/
-.text_area {
-    width: 70%;
-    margin: 10px auto;
-    padding: 13px 13px;
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-    resize: none;
+body main input::placeholder, body main textarea::placeholder {
+  font-family: sans-serif;
 }
-/*contacto-enviar*/
-.submit_btn {
-    width: 70%;
-    margin: 10px auto;
-    padding: 13px 13px;
-    outline: none;
-    border-radius: 5px;
-    border: none;
-    background-color: #6B1818;
-    color: white;
-    box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+body main .contact-form {
+  padding: 25px;
+  flex-direction: column;
+  max-width: 600px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px;
+}
+body main .inp {
+  padding: 4px 13px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 40px;
+}
+body main .text_area {
+  padding: 13px 13px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  resize: none;
+}
+body main .submit_btn {
+  padding: 13px 13px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #6B1818;
+  color: white;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+body main footer {
+  background-color: #AB9888;
+}
+body main footer .footer-title {
+  text-align: left;
+  color: white;
+  font-size: 32px;
+}
+body main footer span {
+  color: darkred;
+  font-size: 18px;
+  text-align: left;
+}
+body main footer p {
+  font-size: 16px;
+  color: black;
 }
 
-/*footer en todos mis html*/
-footer{
-    background-color: #AB9888; 
-}
-
-.footer-title{
-    text-align: left;
-    color: white;
-    font-size: 32px;
-}
-
-footer span{
-    color: darkred;
-    font-size: 18px;
-    text-align: left;
-}
-
-footer p{
-    font-size: 16px;
-    color: black;
-}
+/*# sourceMappingURL=style.css.map */

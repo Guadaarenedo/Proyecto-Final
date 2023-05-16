@@ -1,0 +1,210 @@
+@import './base/vars';
+@import './base/listas';
+@import './base/extend'; 
+
+body {
+    header {
+        p {
+            color: white;
+            font: initial;
+            font-style: italic;
+            font-size: 16px;
+            background-color: black;
+            text-align: center;
+            word-spacing: normal;
+        }
+        .logo {
+             width: 25%;
+             margin: 5px;
+        }
+        .my-navbar {
+            color: #6B1818;
+            font: initial;
+            font-style: italic;
+            font-size: 20px;
+            font-weight: bold;
+            border-radius: 20%;
+    
+            &:hover {
+                color: white;
+                background-color: #6B1818;
+            }
+      
+            &:active {
+                text-decoration: underline;
+                text-decoration-color: #6B1818;
+                background-color: white;
+            }
+        }
+      
+        .btn-cel {
+            color: #6B1818;
+        }
+    }
+      
+    main {
+        section {
+            h1 {
+                color: darkred;
+                font: initial;
+                font-size: 32px;
+                text-align: center;
+                margin: 40px;
+            }
+        }
+    
+        .titulo-tarjeta {
+            font-size: 20px;
+            color: #6B1818;
+            font-family: Georgia;
+        }
+      
+        .texto-tarjeta {
+            color: #6B1818;
+            font-family: arial;
+            font-weight: bold;
+        }
+      
+        .tarjeta-vinos {
+            @extend %flex-centrado;
+        }
+      
+        .card {
+            margin: 10px 10px 10px 10px;
+            @extend %flex-centrado;
+        }
+      
+        div {
+            img {
+                max-width: 40%;
+            }
+        }
+      
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            filter: invert(100%);
+        }
+      
+        .btn-agregar {
+            border: darkred;
+            border-radius: 10px;
+            background-color: #9c4b4b;
+      
+            &:hover {
+                background-color: white;
+                color: #9c4b4b;
+            }
+        }
+      
+        h1 {
+            font: initial;
+            color: darkred;
+            font-size: 35px;
+            text-align: center;
+            text-decoration: underline;
+            margin: 40px;
+        }
+      
+        .img-cel {
+            width: auto;
+            height: auto;
+        }
+      
+        div {
+            p {
+                color: darkred;
+                font-size: 14px;
+                font: initial;
+                text-align: justify;
+            }
+        }
+      
+        .imagen {
+            margin-bottom: 10%;
+        }
+      
+        h1 {
+            color: darkred;
+            font-style: italic;
+        }
+      
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+      
+        main {
+            form {
+                background-color: whitesmoke;
+                width: 100vw;
+            }
+            
+        }
+        
+        input::placeholder, textarea::placeholder {
+            font-family: sans-serif;
+        }
+      
+        .contact-form {
+            padding: 25px;
+            @extend %flex-centrado;
+            flex-direction: column;
+            max-width: 600px;
+            @extend %contact;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px;
+        }    
+      
+        .inp {
+          padding: 4px 13px;
+          outline: none;
+          border-radius: 5px;
+          border: none;
+          @extend %contact;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          height: 40px;
+        }
+      
+      
+        .text_area {
+            padding: 13px 13px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            resize: none;
+            @extend %contact;
+        }
+      
+        .submit_btn {
+            padding: 13px 13px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background-color: #6B1818;
+            color: white;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            @extend %contact;
+        }
+      
+        footer {
+            background-color: #AB9888;
+            
+            .footer-title {
+                text-align: left;
+                color: white;
+                font-size: 32px;
+            }
+
+            span {
+                color: darkred;
+                font-size: 18px;
+                text-align: left;
+            }
+      
+            p {
+                font-size: 16px;
+                color: black;
+            }
+        }
+    }
+}
