@@ -145,20 +145,20 @@ body main .submit_btn {
   color: white;
   box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
 }
-body main footer {
+body footer {
   background-color: #AB9888;
 }
-body main footer .footer-title {
+body footer .footer-title {
   text-align: left;
   color: white;
   font-size: 32px;
 }
-body main footer span {
+body footer span {
   color: darkred;
   font-size: 18px;
   text-align: left;
 }
-body main footer p {
+body footer p {
   font-size: 16px;
   color: black;
 }

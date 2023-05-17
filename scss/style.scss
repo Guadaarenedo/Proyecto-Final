@@ -185,26 +185,28 @@ body {
             box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
             @extend %contact;
         }
-      
-        footer {
-            background-color: #AB9888;
+    }  
+    
+    footer {
+        background-color: #AB9888;
             
-            .footer-title {
-                text-align: left;
-                color: white;
-                font-size: 32px;
-            }
-
-            span {
-                color: darkred;
-                font-size: 18px;
-                text-align: left;
-            }
-      
-            p {
-                font-size: 16px;
-                color: black;
-            }
+        .footer-title {
+            text-align: left;
+            color: white;
+            font-size: 32px;
         }
+
+        span {
+            color: darkred;
+            font-size: 18px;
+            text-align: left;
+        }
+      
+        p {
+            font-size: 16px;
+            color: black;
+        }
+
     }
+    
 }
