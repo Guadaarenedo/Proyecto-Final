@@ -1,0 +1,62 @@
+body {
+    main{
+        * {
+            margin: 0px;
+            padding: 0px;
+            box-sizing: border-box;
+        }
+        
+        main {
+            form {
+                background-color: nth($colores, 2 );
+                width: 100vw;
+            }
+            
+        }
+        
+        input::placeholder, textarea::placeholder {
+            font-family: sans-serif;
+        }
+        
+        .contact-form {
+            padding: 25px;
+            @extend %flex-centrado;
+            flex-direction: column;
+            max-width: 600px;
+            @extend %contact;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px;
+        }    
+        
+        .inp {
+          padding: 4px 13px;
+          outline: none;
+          border-radius: 5px;
+          border: none;
+          @extend %contact;
+          box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+          height: 40px;
+        }
+        
+        
+        .text_area {
+            padding: 13px 13px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            resize: none;
+            @extend %contact;
+        }
+        
+        .submit_btn {
+            padding: 13px 13px;
+            outline: none;
+            border-radius: 5px;
+            border: none;
+            background-color: $color;
+            color: nth($colores, 2 );
+            box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+            @extend %contact;
+        }
+    }
+}  

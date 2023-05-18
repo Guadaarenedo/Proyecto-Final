@@ -1,4 +1,4 @@
-body main .contact-form, body main .card, body main .tarjeta-vinos {
+body main .card, body main .tarjeta-vinos, body main .contact-form {
   display: flex;
   justify-content: center;
   align-items: center;
@@ -9,7 +9,7 @@ body main .submit_btn, body main .text_area, body main .inp, body main .contact-
   margin: 10px auto;
 }
 
-body header p {
+header p {
   color: white;
   font: initial;
   font-style: italic;
@@ -18,11 +18,14 @@ body header p {
   text-align: center;
   word-spacing: normal;
 }
-body header .logo {
+header nav {
+  background-color: #AB9888;
+}
+header nav .logo {
   width: 25%;
   margin: 5px;
 }
-body header .my-navbar {
+header nav .my-navbar {
   color: #6B1818;
   font: initial;
   font-style: italic;
@@ -30,18 +33,81 @@ body header .my-navbar {
   font-weight: bold;
   border-radius: 20%;
 }
-body header .my-navbar:hover {
+header nav .my-navbar:hover {
   color: white;
   background-color: #6B1818;
 }
-body header .my-navbar:active {
+header nav .my-navbar:active {
   text-decoration: underline;
   text-decoration-color: #6B1818;
   background-color: white;
 }
-body header .btn-cel {
+header nav .btn-cel {
   color: #6B1818;
 }
+
+footer {
+  background-color: #AB9888;
+}
+footer .footer-title {
+  text-align: left;
+  color: white;
+  font-size: 32px;
+}
+footer span {
+  color: darkred;
+  font-size: #9c4b4b;
+  text-align: left;
+}
+footer p {
+  font-size: 35px;
+  color: black;
+}
+
+body main * {
+  margin: 0px;
+  padding: 0px;
+  box-sizing: border-box;
+}
+body main main form {
+  background-color: whitesmoke;
+  width: 100vw;
+}
+body main input::placeholder, body main textarea::placeholder {
+  font-family: sans-serif;
+}
+body main .contact-form {
+  padding: 25px;
+  flex-direction: column;
+  max-width: 600px;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px;
+}
+body main .inp {
+  padding: 4px 13px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  height: 40px;
+}
+body main .text_area {
+  padding: 13px 13px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+  resize: none;
+}
+body main .submit_btn {
+  padding: 13px 13px;
+  outline: none;
+  border-radius: 5px;
+  border: none;
+  background-color: #6B1818;
+  color: whitesmoke;
+  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
+}
+
 body main section h1 {
   color: darkred;
   font: initial;
@@ -101,66 +167,6 @@ body main .imagen {
 body main h1 {
   color: darkred;
   font-style: italic;
-}
-body main * {
-  margin: 0px;
-  padding: 0px;
-  box-sizing: border-box;
-}
-body main main form {
-  background-color: whitesmoke;
-  width: 100vw;
-}
-body main input::placeholder, body main textarea::placeholder {
-  font-family: sans-serif;
-}
-body main .contact-form {
-  padding: 25px;
-  flex-direction: column;
-  max-width: 600px;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 5px 15px;
-}
-body main .inp {
-  padding: 4px 13px;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  height: 40px;
-}
-body main .text_area {
-  padding: 13px 13px;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-  resize: none;
-}
-body main .submit_btn {
-  padding: 13px 13px;
-  outline: none;
-  border-radius: 5px;
-  border: none;
-  background-color: #6B1818;
-  color: white;
-  box-shadow: rgba(100, 100, 111, 0.2) 0px 7px 29px 0px;
-}
-body footer {
-  background-color: #AB9888;
-}
-body footer .footer-title {
-  text-align: left;
-  color: white;
-  font-size: 32px;
-}
-body footer span {
-  color: darkred;
-  font-size: 18px;
-  text-align: left;
-}
-body footer p {
-  font-size: 16px;
-  color: black;
 }
 
 /*# sourceMappingURL=style.css.map */

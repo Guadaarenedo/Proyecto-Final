@@ -1,0 +1,43 @@
+
+header {
+    p {
+        color: nth($colores, 1 );
+        font: $font;
+        font-style: $ft-style;
+        font-size: nth($font-size, 2 );
+        background-color: nth($colores, 6 );
+        text-align: center;
+        word-spacing: normal;
+    }
+    nav {
+        background-color: #AB9888;
+
+        .logo {
+            width: 25%;
+            margin: 5px;
+       }
+       .my-navbar {
+           color: $color;
+           font: $font;
+           font-style: $ft-style;
+           font-size: nth($font-size, 4 );
+           font-weight: bold;
+           border-radius: 20%;
+   
+           &:hover {
+               color: nth($colores, 1 );
+               background-color: $color;
+           }
+     
+           &:active {
+               text-decoration: underline;
+               text-decoration-color: $color;
+               background-color: nth($colores, 1 );
+           }
+       }
+     
+       .btn-cel {
+           color: $color;
+       }
+    }
+}

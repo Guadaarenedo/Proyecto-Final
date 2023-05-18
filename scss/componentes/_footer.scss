@@ -1,0 +1,23 @@
+
+
+footer {
+    background-color: map-get($footer, bg-color);
+        
+    .footer-title {
+        text-align: map-get($footer, txt-al);
+        color: nth($colores, 1 );
+        font-size: nth($font-size, 5 );
+    }
+
+    span {
+        color: nth($colores, 4 );
+        font-size: nth($colores, 3 );
+        text-align: map-get($footer, txt-al);
+    }
+  
+    p {
+        font-size: nth($font-size, 6 );
+        color: nth($colores, 6 );
+    }
+
+}

@@ -1,0 +1,89 @@
+
+
+body {
+    main {
+        section {
+            h1 {
+                color: nth($colores, 4 );
+                font: $font;
+                font-size: nth($font-size, 5 );
+                text-align: center;
+                margin: 40px;
+            }
+        }
+    
+        .titulo-tarjeta {
+            font-size: nth($font-size, 4 );
+            color: $color;
+            font-family: Georgia;
+        }
+      
+        .texto-tarjeta {
+            color: $color;
+            font-family: arial;
+            font-weight: bold;
+        }
+      
+        .tarjeta-vinos {
+            @extend %flex-centrado;
+        }
+      
+        .card {
+            margin: 10px 10px 10px 10px;
+            @extend %flex-centrado;
+        }
+      
+        div {
+            img {
+                max-width: 40%;
+            }
+        }
+      
+        .carousel-control-prev-icon, .carousel-control-next-icon {
+            filter: invert(100%);
+        }
+      
+        .btn-agregar {
+            border: nth($colores, 4 );
+            border-radius: 10px;
+            background-color: nth($colores, 3 );
+      
+            &:hover {
+                background-color: nth($colores, 1 );
+                color: nth($colores, 3 );
+            }
+        }
+      
+        h1 {
+            font: $font;
+            color: nth($colores, 4 );
+            font-size: nth($font-size, 6 );
+            text-align: center;
+            text-decoration: underline;
+            margin: 40px;
+        }
+      
+        .img-cel {
+            width: auto;
+            height: auto;
+        }
+      
+        div {
+            p {
+                color: nth($colores, 4 );
+                font-size: nth($font-size, 1 );
+                font: $font;
+                text-align: justify;
+            }
+        }
+      
+        .imagen {
+            margin-bottom: 10%;
+        }
+      
+        h1 {
+            color: nth($colores, 4 );
+            font-style: $ft-style;
+        }
+    }
+}
