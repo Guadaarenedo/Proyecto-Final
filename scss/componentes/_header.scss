@@ -10,8 +10,6 @@ header {
         word-spacing: normal;
     }
     nav {
-        background-color: #AB9888;
-
         .logo {
             width: 25%;
             margin: 5px;
@@ -22,7 +20,7 @@ header {
            font-style: $ft-style;
            font-size: nth($font-size, 4 );
            font-weight: bold;
-           border-radius: 20%;
+          
    
            &:hover {
                color: nth($colores, 1 );
