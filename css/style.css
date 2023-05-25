@@ -129,7 +129,7 @@ body main .card {
   margin: 10px 10px 10px 10px;
 }
 body main div img {
-  max-width: 40%;
+  max-width: 60%;
 }
 body main .carousel-control-prev-icon, body main .carousel-control-next-icon {
   filter: invert(100%);
