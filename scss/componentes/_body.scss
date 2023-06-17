@@ -1,7 +1,12 @@
 
 
 body {
+    height: 100%;
+    position: relative;
+
     main {
+        padding-bottom: 81px;
+        
         section {
             h1 {
                 color: nth($colores, 4 );
